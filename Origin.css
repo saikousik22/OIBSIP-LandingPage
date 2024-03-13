@@ -1,0 +1,351 @@
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* Navbar Logo Styling */
+.navbar-logo 
+{
+    font-family: "Roboto"; /* Font family for the navbar logo */
+    font-size: 24px; /* Font size */
+    font-weight: 700; /* Font weight */
+    border-style: solid; /* Border style */
+    border-width: 2px; /* Border width */
+    border-color: #d0b200; /* Border color */
+    padding-left: 10px; /* Left padding */
+    padding-right: 10px; /* Right padding */
+    color: #ffffff; /* Text color */
+}
+
+
+/* Homepage Section Styling */
+.homepage-section 
+{
+    background-color: #222222; /* Background color */
+    height: 100vh; /* Full viewport height */
+    width: 100%; /* Full width */
+    background-size: cover; /* Background size */
+}
+/* Homepage Content Styling */
+.home-content 
+{
+    width: 100%; /* Full width */
+}
+/* Homepage Div Styling */
+.homepage-div 
+{
+    height: 400px; /* Fixed height */
+}
+/* Main Page Heading Styling */
+.mainpage-heading 
+{
+    color: #ffffff; /* Text color */
+    font-family: 'Roboto'; /* Font family */
+    font-weight: bold; /* Font weight */
+    font-size: 28px; /* Font size */
+    margin-bottom: 20px; /* Bottom margin */
+    text-align: center; /* Text alignment */
+}
+/* Main Page Paragraph Styling */
+.mainpage-paragraph 
+{
+    color: #ffffff; /* Text color */
+    font-family: 'Roboto'; /* Font family */
+    font-size: 20px; /* Font size */
+    text-align: center; /* Text alignment */
+}
+/* Homepage Button Styling */
+.homepage-button 
+{
+    color: white; /* Text color */
+    background-color: #d0b200; /* Background color */
+    width: 130px; /* Button width */
+    height: 45px; /* Button height */
+    border-width: 0; /* Border width */
+    border-radius: 8px; /* Border radius */
+    margin-right: 10px; /* Right margin */
+    margin-top: 20px; /* Top margin */
+}
+/* Hover Effect for Hyperlinks */
+a.h_link:hover 
+{
+    background-color: #d0b200; /* Background color on hover */
+}
+
+
+/* About Us Page Background Color */
+.aboutus-bgcolor 
+{
+    background-color: #1f2933; /* Background color */
+}
+/* About Page Heading Styling */
+.aboutpage-heading 
+{
+    font-size: 25px; /* Font size */
+    font-family: 'Roboto'; /* Font family */
+    font-weight: 800; /* Font weight */
+    text-align: center; /* Text alignment */
+    color: #ffffff; /* Text color */
+}
+/* About Page Paragraph Styling */
+.aboutpage-paragraph 
+{
+    font-size: 20px; /* Font size */
+    font-family: 'Roboto'; /* Font family */
+    text-align: center; /* Text alignment */
+    color: #90EE90; /* Text color */
+}
+/* About Page Main Paragraph Styling */
+.aboutpage-mainparagraph 
+{
+    font-size: 25px; /* Font size */
+    font-family: 'Roboto'; /* Font family */
+    text-align: center; /* Text alignment */
+    font-weight: bold; /* Font weight */
+    color: #ffffff; /* Text color */
+}
+/* About Us Main Heading Styling */
+.aboutus-mainheading 
+{
+    font-size: 40px; /* Font size */
+    font-family: 'Roboto'; /* Font family */
+    font-weight: bold; /* Font weight */
+    color: #90EE90; /* Text color */
+}
+/* Card Styling */
+.card1 
+{
+    border-style: solid; /* Border style */
+    border-width: 3px; /* Border width */
+    margin-bottom: 10px; /* Bottom margin */
+    border-color: #ffffff; /* Border color */
+    border-radius: 20px; /* Border radius */
+}
+/* Overlay Styling */
+.overlay 
+{
+    position: absolute; /* Position */
+    top: 0; /* Top position */
+    bottom: 0; /* Bottom position */
+    left: 0; /* Left position */
+    right: 0; /* Right position */
+    height: 100%; /* Full height */
+    width: 100%; /* Full width */
+    opacity: 0; /* Initial opacity */
+    transition: .5s ease; /* Transition effect */
+    background-color: #008CBA; /* Background color */
+    border-radius: 20px; /* Border radius */
+}
+/* Hover Effect for Overlay */
+.container1:hover .overlay 
+{
+    opacity: 1; /* Opacity on hover */
+}
+/* Text Styling for Overlay */
+.text 
+{
+    color: white; /* Text color */
+    font-size: 20px; /* Font size */
+    font-family: 'Roboto'; /* Font family */
+    position: absolute; /* Position */
+    width: 80%; /* Width */
+    top: 50%; /* Top position */
+    left: 50%; /* Left position */
+    transform: translate(-50%, -50%); /* Center alignment */
+    text-align: center; /* Text alignment */
+}
+
+/* Course page section Styling */
+.coursepage-section
+{
+    background-color: #323f4b; /* Background color */
+}
+/* Course Page Main Heading Styling */
+.coursepage-mainheading 
+{
+    font-size: 40px; /* Font size */
+    font-family: 'Roboto'; /* Font family */
+    font-weight: bold; /* Font weight */
+    color: #90EE90; /* Text color */
+    text-align: center; /* Text alignment */
+}
+/* Course Page Main Paragraph Styling */
+.coursepage-mainparagraph {
+    font-size: 20px; /* Font size */
+    font-family: 'Roboto'; /* Font family */
+    text-align: center; /* Text alignment */
+    font-weight: bold; /* Font weight */
+    color: #ffffff; /* Text color */
+    margin-left: 20px; /* Left margin */
+}
+/* Course Page Heading Styling */
+.coursepage-heading 
+{
+    font-size: 25px; /* Font size */
+    font-family: 'Roboto'; /* Font family */
+    font-weight: 800; /* Font weight */
+    text-align: center; /* Text alignment */
+    color: #ffffff; /* Text color */
+}
+/* List Type Styling */
+.listtype 
+{
+    list-style-type: circle; /* List style type */
+}
+ /* Hover Effect for List Type First Card */
+.listtype.firstcard:hover 
+{
+    box-shadow: 5px 5px 5px 5px orange; /* Box shadow on hover */
+    transition: 1s ease; /* Transition effect */
+}
+/* Hover Effect for List Type Second Card */
+.listtype.secondcard:hover 
+{
+    box-shadow: 5px 5px 5px 5px orange; /* Box shadow on hover */
+    transition: 1s ease; /* Transition effect */
+}
+/* First Card Styling */
+.firstcard 
+{
+    background-color: #f5f5dc; /* Background color */
+    border-radius: 25px; /* Border radius */
+    padding: 10px; /* Padding */
+    padding-left: 30px; /* Left padding */
+    list-style-type: none; /* Remove list-style */
+}
+/* Second Card Styling */
+.secondcard 
+{
+    background-color: #e6f7ff; /* Background color */
+    border-radius: 25px; /* Border radius */
+    padding: 10px; /* Padding */
+    padding-left: 30px; /* Left padding */
+    list-style-type: none; /* Remove list-style */
+}
+/* Centered Text Styling */
+.centerc 
+{
+    text-align: center; /* Text alignment */
+}
+/* Course Page Link Styling */
+.coursepage-link 
+{
+    color: orange; /* Text color */
+    font-size: 20px; /* Font size */
+    font-family: 'roboto'; /* Font family */
+}
+/* Container Styling */
+.container 
+{
+    text-align: center; /* Text alignment */
+}
+/* Course Subheading Styling */
+.course-subhead 
+{
+    color: #d35400; /* Text color */
+    font-size: 20px; /* Font size */
+    font-family: 'Roboto'; /* Font family */
+}
+/* Course Content Styling */
+.course-content 
+{
+    color: #2c3e50; /* Text color */
+    font-size: 20px; /* Font size */
+    font-family: 'Roboto'; /* Font family */
+}
+
+
+/* Marquee Styling */
+.marquee 
+{
+    font-size: 25px; /* Font size */
+    font-style: bold; /* Font style */
+    color: #ffffff; /* Text color */
+    background-color: #323f4b; /* Background color */
+    padding: 10px; /* Padding */
+}
+
+
+/* Testimonials Section Styling */
+.Testimonials-section 
+{
+    background-color: #1f2933; /* Background color */
+    padding: 40px; /* Padding */
+}
+/* Testimonials Section Sub-heading Styling */
+.Testimonials-section-sub-heading 
+{
+    color: #90EE90; /* Text color */
+    font-family: "Roboto"; /* Font family */
+    font-size: 36px; /* Font size */
+    font-weight: bold; /* Font weight */
+}
+/* Testimonials Section Heading Styling */
+.Testimonials-section-heading 
+{
+    color: #ffffff; /* Text color */
+    font-family: "Roboto"; /* Font family */
+    font-size: 20px; /* Font size */
+    font-weight: bold; /* Font weight */
+}
+/* Testimonials Card Styling */
+.Testimonials-card 
+{
+    background-color: #323f4b; /* Background color */
+    padding: 20px; /* Padding */
+}
+/* Testimonials Card Image Styling */
+.Testimonials-card-image 
+{
+    width: 100px; /* Width */
+    height: 100px; /* Height */
+    border-radius: 50px; /* Border radius */
+}
+/* Testimonials Card Description Styling */
+.Testimonials-card-description 
+{
+    color: #9aa5b1; /* Text color */
+    font-family: "Roboto"; /* Font family */
+    font-size: 18px; /* Font size */
+}
+/* Testimonials Card Person Name Styling */
+.Testimonials-card-person-name 
+{
+    color: #ffffff; /* Text color */
+    font-family: "Roboto"; /* Font family */
+    font-size: 20px; /* Font size */
+    font-weight: 500; /* Font weight */
+}
+
+
+/* Follow Us Section Styling */
+.follow-us-section 
+{
+    background-color:  #323f4b; /* Background color */
+}
+/* Follow Us Section Heading Styling */
+.follow-us-section-heading 
+{
+    text-align: center; /* Text alignment */
+    font-size: 40px; /* Font size */
+    font-family: 'Roboto'; /* Font family */
+    font-weight: bold; /* Font weight */
+    color: #90EE90; /* Text color */
+}
+/* Follow Us Icon Container Styling */
+.follow-us-icon-container 
+{
+    background-color: #faf7e8; /* Background color */
+    width: 80px; /* Width */
+    height: 80px; /* Height */
+    border-radius: 40px; /* Border radius */
+    margin: 15px; /* Margin */
+    padding-top: 22px; /* Padding top */
+    padding-bottom: 14px; /* Padding bottom */
+    padding-right: 16px; /* Padding right */
+    padding-left: 22px; /* Padding left */
+}
+/* Icon Styling */
+.icon 
+{
+    color: #d0b200; /* Icon color */
+    font-size: 35px; /* Icon size */
+}
